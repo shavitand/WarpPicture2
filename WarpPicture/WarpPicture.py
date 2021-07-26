@@ -126,7 +126,8 @@ def ConvertPicture( namePicture ):
     else:
         print ( 'File not found' )
 
-    
+   
+print ( 'Enter file name \n' )
 fileName = input()
 
 ConvertPicture( fileName )
